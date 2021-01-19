@@ -30,6 +30,12 @@ p
 	color:white;
 }
 
+video
+{
+	display: block;
+	border-style:none;
+}
+
 h5
 {
 	color:red;
@@ -61,7 +67,7 @@ h2
 h1
 {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 }
 
 nav
@@ -97,7 +103,7 @@ aside
 section
 {
 	width: 710px;
-	height: 960px;
+	height: 740px;
 	margin: 0 0 10px 0;
 	padding: 10px;
 	float: right;
