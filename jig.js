@@ -1,5 +1,6 @@
 var clunkCounter = 0;
-var x = 7;
+var x = 0;
+var num = 7;
  
 /*
 This Function is used for the variable that was passed to the thingamajig, this acts a counter which is used to display the string clunk
@@ -44,7 +45,7 @@ function thingamajig(size) {
 	}
 }
 
-//This is the passed display that will be sent to the output.
+//This is the passed display that will be sent to the output. Inclusion of increasing clunkCounter by one.
 function display(output) {
 	console.log(output);
 	document.write(output);
@@ -52,11 +53,11 @@ function display(output) {
 	clunkCounter = clunkCounter + 1;
 }
 
-/* This loop calls the thingamajig and uses the defined varaibale (x) and will pass the number of times we assigned it (7) and will 
+/* This loop calls the thingamajig and uses the defined varaibale (x) and will pass the number of times we assigned it (num, in this case is 7) and will 
 display the clunkCounter, the variable defined above. */
-while (x >=0) {
+while (x <= num) {
 	thingamajig(x);
-	x -= 1;
+	x += 1;
 	console.log(clunkCounter);
 	document.write(clunkCounter);
 	document.write("<br>");
