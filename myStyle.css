@@ -116,3 +116,9 @@ footer
 	clear: both;
 	background-color:black;
 }
+
+script
+{
+	color:red;
+	font-size: 25px;
+}
