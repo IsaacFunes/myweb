@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+		<meta name="description" content ="This is my project page.">
+		<meta name="keywords" content="Web, page, template">
+		
+		<title>Planet Project!</title>
+		<style>
+			.redtext { color: red;}
+		</style>
+		<link href ="mystyle.css" rel="stylesheet"/>
+		
+		<script>
+			function init() {
+				var planet = document.getElementById("greenplanet");
+				planet.innerHTML = "Red Alert: hit by phaser fire!";
+				planet.setAttribute("class", "redtext");
+			}
+			window.onload = init;
+		</script>
+    </head>
+		<body>
+			<div id = "container">
+			
+				<header>
+				<h3><a href="https://www.youtube.com/channel/UCCYN5D7japX7FSSkLnO9rAg">ISAAC FUNES</a></h3>
+				</header>
+				
+				<nav>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="projects.html">FILMS</a></li>
+					<li><a href="games.html">Jr. GAMES</a></li>
+				</ul>
+				</nav>
+				
+		<h6>Green Planet</h6>
+		<p id="greenplanet">All is well</p>
+		<br>
+		<h6>Red Planet</h6>
+		<p id="redplanet">Nothing to report</p>
+		<br>
+		<h6>Blue Planet</h6>
+		<p id="blueplanet">All systems are A-OK</p>
+		
+		</body>
+		
+		</div>
+</html>
