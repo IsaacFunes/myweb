@@ -51,6 +51,12 @@ form input {
 	border-color: rgb(83, 175, 19);
 	font-size: 1em;
 }	
+.form-control 
+{
+	width: 70% !important;
+	margin-right: 5%;
+}
+
 .hit {
  background: url("ship.png") no-repeat center center;
 }

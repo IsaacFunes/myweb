@@ -79,7 +79,7 @@ h1
 
 nav
 {
-	width:940px;
+	width:800px;
 	padding:10px;
 	background-color:black;
 	margin-bottom:10px;
@@ -89,7 +89,7 @@ nav li
 {
 	display:inline;
 	list-style-type: none;
-	padding-right: 200px;
+	padding-right: 130px;
 }
 
 a

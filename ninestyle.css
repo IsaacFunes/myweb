@@ -1,0 +1,56 @@
+body
+{
+	background-color: black;
+}
+
+header
+{
+	height:100px;
+	color: red;
+}
+
+aside
+{
+	height:600px;
+	color: red;
+}
+
+section
+{
+	height:600px;
+}
+
+footer
+{
+	height:100px;
+}
+
+.container_12
+{
+	background-color: black;
+}
+
+.red
+{
+	background-color: red;
+}
+
+.orange
+{
+	background-color: orange;
+}
+
+.yellow
+{
+	background-color: yellow;
+}
+
+.green
+{
+	background-color: green;
+}
+
+.blue
+{
+	background-color: blue;
+}
