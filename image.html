@@ -7,7 +7,35 @@
 		<meta name="keywords" content="Web, page, template">
 		
 		<title>Image Game</title>
+		<style>
+			body{margin: 10px; } 
+			img {margin: 10px; }
+		</style>
 		<link href ="mystyle.css" rel="stylesheet"/>
+		
+	<script>
+		window.onload = function() {
+			var images = document.getElementsByTagName("img");
+			for (var i = 0; i < images.length; i++) {
+				images[i].onclick = showAnswer;
+			}
+		};
+		
+		function showAnswer(eventObj) {
+			var image = eventObj.target;
+			var name = image.id;
+			name = name + ".jpg";
+			image.src = name;
+			
+			setTimeout(reblur, 2000, image);
+		}
+		
+		function reblur(image){
+			var name = image.id;
+			name = name + "blur.jpg";
+			image.src = name;
+		}
+	</script>
     </head>
 		
 		<body>
@@ -25,15 +53,14 @@
 					<li><a href="games.html">Jr. GAMES</a></li>
 				</ul>
 				</nav>
-		<h3>Care to Play?</h3>
-
-		<br>
 		
-		<br>
+		<img id="zero" src="zeroblur.jpg">
+		<img id="one" src="oneblur.jpg">
+		<img id="two" src="twoblur.jpg">
+		<img id="three" src="threeblur.jpg">
+		<img id="four" src="fourblur.jpg">
+		<img id="five" src="fiveblur.jpg">
 		
-		<h5>
-		<script src="image.js"></script>
-		</h5>
 		
 		</body>
 		
